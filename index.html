@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Images/android-icon-192x192.png"
+      type="image/x-icon"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="calculator-container">
+        <div class="section-heading">
+          <input
+            type="text"
+            name="text"
+            id="display"
+            disabled
+            placeholder="0"
+          />
+        </div>
+        <div class="calculate-item">
+          <input type="button" value="AC" class="color button" />
+          <input type="button" value="DE" class="color button" />
+          <input type="button" value="." class="color button" />
+          <input type="button" value="/" class="color button" />
+        </div>
+        <div class="calculate-item">
+          <input type="button" value="7" class="button" />
+          <input type="button" value="8" class="button" />
+          <input type="button" value="9" class="button" />
+          <input type="button" value="*" class="color button" />
+        </div>
+        <div class="calculate-item">
+          <input type="button" value="4" class="button" />
+          <input type="button" value="5" class="button" />
+          <input type="button" value="6" class="button" />
+          <input type="button" value="-" class="color button" />
+        </div>
+        <div class="calculate-item">
+          <input type="button" value="1" class="button" />
+          <input type="button" value="2" class="button" />
+          <input type="button" value="3" class="button" />
+          <input type="button" value="+" class="color button" />
+        </div>
+        <div class="calculate-item">
+          <input type="button" value="0" class="button" />
+          <input type="button" value="00" class="button" />
+          <input
+            type="button"
+            value="="
+            class="equal color button"
+            id="equalBtn"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
